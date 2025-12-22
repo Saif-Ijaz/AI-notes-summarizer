@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+pymongo
+streamlit
+requests
+chromadb
+sentence-transformers
+pypdf

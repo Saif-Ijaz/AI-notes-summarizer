@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# ChromaDB (optional, generated data)
+chroma_store/
+
+# OS files
+.DS_Store
