@@ -27,7 +27,13 @@ collection = client.get_or_create_collection(name="notes")
 # 3. LOAD EMBEDDING MODEL
 # --------------------------------------------------
 
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+import streamlit as st
+
+@st.cache_resource
+def load_model():
+    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+model = load_model()
 
 # --------------------------------------------------
 # 4. CHUNKING FUNCTION
