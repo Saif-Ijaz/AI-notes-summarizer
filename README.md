@@ -1,4 +1,15 @@
-﻿# 📘 AI Notes Summarizer & Q&A
+---
+title: AI Notes Summarizer
+emoji: 📘
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.41.1"
+app_file: app/app.py
+pinned: false
+---
+
+# 📘 AI Notes Summarizer & Q&A
 
 An AI-powered study notes assistant that summarizes PDF documents and answers questions using Groq AI and semantic search.
 
