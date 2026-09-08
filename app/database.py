@@ -1,7 +1,11 @@
 from pymongo import MongoClient
 from config import MONGO_URI, DB_NAME
 
-client = MongoClient(MONGO_URI)
+client = MongoClient(
+    MONGO_URI,
+    tls=True,
+    tlsAllowInvalidCertificates=True
+)
 db = client[DB_NAME]
 
 notes_collection = db["notes"]

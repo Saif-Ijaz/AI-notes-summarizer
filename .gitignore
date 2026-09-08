@@ -13,3 +13,10 @@ chroma_store/
 
 # OS files
 .DS_Store
+
+app.log
+*.log
+venv/
+__pycache__/
+.env
+chroma_store/
